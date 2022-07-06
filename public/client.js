@@ -45,6 +45,7 @@ function appendMessage(msg , type) {
     `
 
     mainDiv.innerHTML = markup;
+    
     messageArea.appendChild(mainDiv);
 }
 
